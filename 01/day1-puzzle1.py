@@ -5,7 +5,7 @@ def find_first_digit_char(string):
     return None
 
 try:
-    with open("day1-input.txt", "r", encoding="utf-8") as input_file:
+    with open("01/day1-input.txt", "r", encoding="utf-8") as input_file:
         calibration_values = []
         for line in input_file:
             first_digit = find_first_digit_char(line)
